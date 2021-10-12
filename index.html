@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/2231f84edf.js" crossorigin="anonymous"> defer</script>
+    <title>Joga da Velha</title>
+</head>
+<body>
+    <h1 class="velha">Jogo da Velha</h1>
+    <div>
+        <div>
+            <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        </div>
+        <div>
+            <div id="4" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="5" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="6" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        </div>
+        <div>
+            <div id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="8" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        </div>
+    </div>
+    <div class="jogador">
+        <label>
+            Jogador:
+        </label>
+        <label id="jogador-selecionado"></label>
+    </div>
+    <div class="vencedor">
+        <label>
+            Vencedor:
+        </label>
+        <label id="vencedor-selecionado"></label>
+    </div>
+    <div>
+        <button onclick="reiniciar()">Reiniciar</button>
+    </div>
+    <div class="social">
+        <a href="https://twitter.com/LuizHardacore" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/eu_nem_sei/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:luizmaranhao5@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+        <a href="https://github.com/LuizHardacore" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+</body>
+
+</html>
